@@ -22,6 +22,8 @@ with open (file, "r") as f:
 with open("infected.out", "w+") as f:
     f.write(infected)
 
+print("Created infected script as infected.out!")
+
                
           
      
