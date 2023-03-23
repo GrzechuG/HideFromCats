@@ -1,9 +1,9 @@
 #!/usr/bin/python
 import sys
-print "HideFromCats - created by [GrzechuG/BlueHat139]"
+print("HideFromCats - created by [GrzechuG/BlueHat139]")
 
 if len(sys.argv)!=3:
-    print "Usage: python HideFromCats.py [virus_bash] [script_to_infect]"
+    print("Usage: python HideFromCats.py [virus_bash] [script_to_infect]")
     quit()
 virus = sys.argv[1]
 file = sys.argv[2]
